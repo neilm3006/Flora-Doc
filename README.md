@@ -3,7 +3,7 @@
 A smart plant disease detection web app that uses AI models to analyze plant leaf images and recommend suitable treatments.
 
 ### 🔗 Live Website:
-http://floradoc.com/
+[http://floradoc.com/](https://neilm3006.github.io/Flora-Doc/)
 
 ---
 
