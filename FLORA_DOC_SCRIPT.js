@@ -8,7 +8,7 @@ const modelURLs = [
     { name: "Cucumber", url: "https://teachablemachine.withgoogle.com/models/pR3mtOtI9/" },
     { name: "Cauliflower", url: "https://teachablemachine.withgoogle.com/models/XIKFZKjFj/" },
     { name: "Chili", url: "https://teachablemachine.withgoogle.com/models/SocdBIvui/" },
-    { name: "Eggplant", url: "https://teachablemachine.withgoogle.com/models/o5GkIdXad/" },
+    { name: "Eggplant", url: "https://teachablemachine.withgoogle.com/models/y1RmiH9O69/" }, //updated
     { name: "Potato", url: "https://teachablemachine.withgoogle.com/models/JpkBMpMgS/" },
     { name: "Strawberry", url: "https://teachablemachine.withgoogle.com/models/fw2u-ZH8B/" },
     { name: "Tomato", url: "https://teachablemachine.withgoogle.com/models/87ieGRB7l/" }
