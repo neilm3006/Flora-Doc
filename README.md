@@ -30,4 +30,4 @@ This project is proprietary and confidential. No part of it may be copied, modif
 ## 📩 Contact
 
 If you want to request permission or learn more, reach out at:  
-📧 **[your email here or link to portfolio]**
+📧 *neilmali3006@gmail.com**
