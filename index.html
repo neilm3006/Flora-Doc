@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THE FL🏵️RA DOC🩺</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;700&display=swap">
+</head>
+<body class="light-mode">
+    <header>
+        <div class="header-content">
+            <h1>THE FL🏵️RA  DOC🩺</h1>
+            <button id="theme-toggle" class="theme-toggle">
+                <svg class="moon" viewBox="0 0 24 24"><path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446A9 9 0 1 1 12 2.992z"/></svg>
+                <svg class="sun" viewBox="0 0 24 24"><path d="M12 18a6 6 0 1 1 0-12 6 6 0 0 1 0 12zm0-2a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM11 1h2v3h-2V1zm0 19h2v3h-2v-3zM3.515 4.929l1.414-1.414L7.05 5.636 5.636 7.05 3.515 4.93zM16.95 18.364l1.414-1.414 2.121 2.121-1.414 1.414-2.121-2.121zm2.121-14.85l1.414 1.415-2.121 2.121-1.414-1.414 2.121-2.121zM5.636 16.95l1.414 1.414-2.121 2.121-1.414-1.414 2.121-2.121zM23 11v2h-3v-2h3zM4 11v2H1v-2h3z"/></svg>
+            </button>
+        </div>
+    </header>
+    <main class="container">
+        <div class="card">
+            <div class="model-container">
+                <!-- Add the dropdown here for selecting the model -->
+                <h2> Select a Plant 🌿</h2>
+                <select id="modelSelect">
+                    <option value="" disabled selected> Choose </option>
+                </select>
+
+                <div class="input-methods">
+                    <div class="webcam-section">
+                        <h2>Live Detection 📷</h2>
+                        <div id="webcam-container" class="webcam-container"></div>
+                        <button type="button" onclick="init()" class="start-button">Start Camera Detection</button>
+                    </div>
+                    <div class="upload-section">
+                        <h2>Image Upload</h2>
+                        <div id="file-upload-container" class="file-upload-container">
+                            <input type="file" id="imageUpload" accept="image/*" class="file-input">
+                            <label for="imageUpload" class="upload-label">
+                                Choose Image or Drag & Drop
+                            </label>
+                            <div id="imagePreview" class="image-preview"></div>
+                        </div>
+                    </div>
+                </div>
+                <div id="label-container" class="label-container"></div>
+                
+                <div id="action-buttons" class="action-buttons">
+                   <button id="fertilizer1" class="fertilizer-btn">Fertilizer 1</button>
+                   <button id="fertilizer2" class="fertilizer-btn">Fertilizer 2</button>
+                   <button id="pesticide" class="pesticide-btn">Pesticide</button>
+                </div>
+
+            </div>
+        </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest/dist/tf.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@latest/dist/teachablemachine-image.min.js"></script>
+    <script src="FLORA_DOC_SCRIPT.js"></script>
+</body>
+</html>
