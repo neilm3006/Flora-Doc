@@ -11,8 +11,7 @@ https://neilm3006.github.io/Flora-Doc/
 
 - 🌱 Select from multiple plant-specific ML models (e.g., Tomato, Potato, Bell Pepper, etc.)
 - 📷 Detect plant diseases using live webcam or uploaded images
-- 🧪 Get suggestions for fertilizers and pesticides with dosage input
-- 💧 Set soil moisture range to optimize irrigation
+- - 💧 Set soil moisture range to optimize irrigation
 - 🌙 Light and Dark mode toggle
 - 🎨 Smooth and responsive UI for both desktop and mobile
 
