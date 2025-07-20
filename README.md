@@ -7,29 +7,29 @@ A smart plant disease detection web app that uses AI models to analyze plant lea
 
 ## 🧠 Features
 
-- 🌱 Select from multiple plant-specific ML models (e.g., Tomato, Potato, Bell Pepper, etc.)
-- 📷 Detect plant diseases using live webcam or uploaded images
-- 💧 Set soil moisture range to optimize irrigation
-- 🌙 Light and Dark mode toggle
-- 🎨 Smooth and responsive UI for both desktop and mobile
-- 🧪 Trained on nearly **35,000 images**, including **augmented data** for improved robustness
+- 🌱 Select from multiple plant-specific ML models (e.g., Tomato, Potato, Bell Pepper, etc.)  
+- 📷 Detect plant diseases using live webcam or uploaded images  
+- 💧 Set soil moisture range to optimize irrigation  
+- 🌙 Light and Dark mode toggle  
+- 🎨 Smooth and responsive UI for both desktop and mobile  
+- 🧪 Trained on nearly **35,000 images**, including **augmented data** for improved robustness  
 
 ---
 
 ## 🧪 Research & Development
 
-This project was executed in **two major phases**, each of which contributed to **two independent research papers**:
+This project was executed in **two major phases**, each of which contributed to **two independent research papers authored by me**:
 
 ### Phase 1: AI Model + Web App  
 - Focused on building and training high-accuracy ML models  
 - Developed a production-ready web app interface  
-- Included real-time detection, UI optimization, and model visualization
+- Included real-time detection, UI optimization, and model visualization  
 
 ### Phase 2: Functional Prototype  
 - Hardware development and circuit integration  
 - Designed and connected custom electronics for irrigation and spraying  
 - Developed a **custom nozzle** aimed at creating an **umbrella-shaped spray pattern**  
-- While the nozzle design was functional, **the motors could not generate sufficient pressure** to operate it at full potential — this remains a limitation under review
+- While the nozzle design was functional, **the motors could not generate sufficient pressure** to operate it at full potential — this remains a limitation under review  
 
 ---
 
