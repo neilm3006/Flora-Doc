@@ -2,7 +2,7 @@
 
 A smart plant disease detection web app that uses AI models to analyze plant leaf images and recommend suitable treatments.
 
-### 🔗 Live Website:
+### 🔗 FLORA-DOC Live Web App:
 https://neilm3006.github.io/Flora-Doc/
 
 ---
@@ -11,7 +11,7 @@ https://neilm3006.github.io/Flora-Doc/
 
 - 🌱 Select from multiple plant-specific ML models (e.g., Tomato, Potato, Bell Pepper, etc.)
 - 📷 Detect plant diseases using live webcam or uploaded images
-- - 💧 Set soil moisture range to optimize irrigation
+- 💧 Set soil moisture range to optimize irrigation
 - 🌙 Light and Dark mode toggle
 - 🎨 Smooth and responsive UI for both desktop and mobile
 
