@@ -18,7 +18,7 @@ A smart plant disease detection web app that uses AI models to analyze plant lea
 
 ## 🧪 Research & Development
 
-This project was executed in **two major phases**, each of which contributed to **two independent research papers authored by me**:
+This project was executed in **two major phases**, each of which contributed to **two independent research papers authored by my team**:
 
 ### Phase 1: AI Model + Web App  
 - Focused on building and training high-accuracy ML models  
